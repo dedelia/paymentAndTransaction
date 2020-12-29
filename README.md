@@ -1,5 +1,10 @@
 # Getting Started
 
+### Running the application
+Creation of the database :
+
+docker run --name my-db -e POSTGRES_PASSWORD=bazatrista -d -p 5432:5432 postgres
+
 ### Reference Documentation
 For further reference, please consider the following sections:
 
